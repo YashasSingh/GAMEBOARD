@@ -1,5 +1,11 @@
+# Game Console Development Journal
+
+**Total Time Spent:** 14 hours and 55 minutes (plus variable time for case work)
+
+---
+
 ### Date: 2025-07-27  
-**Time Spent:** 1 hour  
+**Time Spent:** 1.5 hours  
 **Task:** Research — Component Research and Planning for Game Console
 
 **Summary:**  
@@ -22,7 +28,7 @@ Next Steps:
 ---
 
 ### Date: 2025-07-27  
-**Time Spent:** 45 minutes  
+**Time Spent:** 1 hour  
 **Task:** Hardware Setup — Gamepad Control Assembly
 
 **Summary:**  
@@ -220,7 +226,7 @@ I set up the HDMIs - one micro HDMI to connect my screen and one regular HDMI to
 ---
 
 ### Date: 2025-07-28  
-**Time Spent:** 45 minutes  
+**Time Spent:** 1 hour  
 **Task:** ADC Configuration — Joystick Interface Setup
 
 **Summary:**  
@@ -308,7 +314,7 @@ Looked up the schematic and set up the activity light. Needed to research a lot 
 ---
 
 ### Date: 2025-07-30  
-**Time Spent:** 45 minutes  
+**Time Spent:** 1 hour  
 **Task:** USB Power Management — Datasheet Research and Implementation
 
 **Summary:**  
@@ -352,7 +358,7 @@ Connected USB 2.0, but was having some trouble since there isn't actually a pin 
 ---
 
 ### Date: 2025-07-30  
-**Time Spent:** 45 minutes  
+**Time Spent:** 1 hour  
 **Task:** USB-C Power Input — Voltage Regulation Implementation
 
 **Summary:**  
@@ -413,7 +419,7 @@ Next Steps:
 ![alt text](image-12.png)
 ---
 ### Date: 2025-07-31  
-**Time Spent:** 2 hours  
+**Time Spent:** 3.5 hours  
 **Task:** PCB Design — Differential Pairs Learning
 
 **Summary:**  
