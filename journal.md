@@ -147,7 +147,9 @@ Next Steps:
 - Test fan operation at different PWM duty cycles
 - Implement temperature monitoring for automatic fan control
 - Verify cooling efectiveness under load
-![alt text](img/Screenshot 2025-07-29 194325.png)
+
+
+![alt text](img/Screenshot_2025-07-29_194325.png)
 ---
 
 ### Date: 2025-07-27  
@@ -181,8 +183,8 @@ I began placing components on the PCB itself, spending time looking at how every
 - Verify all components meet mechanical clearance requirements
 - Update 3D model to reflect component placement
 
-![alt text](img/Screenshot 2025-07-29 230840.png)
-![alt text](img/Screenshot 2025-07-29 230927.png)
+![alt text](img/Screenshot_2025-07-29_230840.png)
+![alt text](img/Screenshot_2025-07-29_230927.png)
 
 ---
 
@@ -192,7 +194,7 @@ I began placing components on the PCB itself, spending time looking at how every
 
 **Summary:**  
 Set up the power button and hooked it up to the CM5. Quick and straightforward connection.
-![alt text](image-3.png)
+![alt text](img/image-3.png)
 ---
 
 ### Date: 2025-07-27  
@@ -207,7 +209,7 @@ I looked up the documentation and created a voltage cleanup circuit for the HDMI
 - **Cleanup Circuit Design:** Implemented filtering and regulation for clean HDMI power supply
 - **Signal Integrity:** Ensured proper voltage levels for reliable HDMI operation
 - **Power Management:** Integrated voltage cleanup with main power distribution system
-![alt text](image-4.png)
+![alt text](img/image-4.png)
 ---
 
 ### Date: 2025-07-27  
@@ -222,7 +224,7 @@ I set up the HDMIs - one micro HDMI to connect my screen and one regular HDMI to
 - **Regular HDMI:** Connected for external monitor/display output
 - **CM5 Integration:** Both interfaces properly routed to CM5 HDMI outputs
 - **Learning Curve:** Took extra time to understand component functions and connections
-![alt text](image-5.png)
+![alt text](img/image-5.png)
 ---
 
 ### Date: 2025-07-28  
@@ -237,7 +239,7 @@ ADC Setup Details:
 - ADC to RPi: Connected MCP3008 ADC to Raspberry Pi via SPI interface
 - Channel Mapping: Assigned specific ADC channels for X and Y axes of each joystick
 - Signal Processing: Configured for proper analog-to-digital conversion
-![alt text](image-6.png)
+![alt text](img/image-6.png)
 ---
 
 ### Date: 2025-07-28  
@@ -253,7 +255,7 @@ D-Pad Setup:
 - Placeholder Names: Used temporary labels until proper orientation is confirmed
 - Connection Verification: Ensured all D-pad switches are properly connected to inputs
 
-![alt text](image-7.png)
+![alt text](img/image-7.png)
 
 ---
 
@@ -268,7 +270,7 @@ I worked on the bumper and triggers, changing them out to Cherry MX switches sin
 - **Switch Change:** Replaced original switches with Cherry MX for better feel
 - **Design Simplification:** Reduced custom design work by using standard switches
 - **CM5 Connection:** Successfully connected bumper and trigger inputs to CM5
-![alt text](<Screenshot 2025-07-30 145208.png>)
+![alt text](img/Screenshot_2025-07-30_145208.png)
 ---
 
 ### Date: 2025-07-28  
@@ -282,7 +284,7 @@ I was having a bunch of issues with wiring and wondering how to wire things and 
 - **Connection Issues:** Struggled with proper wiring methodology
 - **Design Impact:** Questioned whether specific wiring choices affect overall functionality
 - **Learning Process:** Realized that seemingly small details can have bigger implications
-![alt text](<Screenshot 2025-07-30 145331.png>)
+![alt text](img/Screenshot_2025-07-30_145331.png)
 ---
 
 ### Date: 2025-07-28  
@@ -296,7 +298,7 @@ Hooked up the X, A, Y, B keys on Cherry MX switches. Super simple implementation
 - **Cherry MX Integration:** Connected all four main action buttons
 - **Simple Setup:** Straightforward wiring and connection process
 - **Quick Implementation:** Minimal time required due to standardized switch interface
-![alt text](<Screenshot 2025-07-30 151225.png>)
+![alt text](img/Screenshot_2025-07-30_151225.png)
 ---
 
 ### Date: 2025-07-28  
@@ -310,7 +312,7 @@ Looked up the schematic and set up the activity light. Needed to research a lot 
 - **Schematic Research:** Extensive documentation review for activity light implementation
 - **Minimal Implementation:** More research than actual work completed
 - **Understanding Phase:** Focused on comprehending the circuit requirements
-![alt text](<Screenshot 2025-07-30 175649.png>)
+![alt text](img/Screenshot_2025-07-30_175649.png)
 ---
 
 ### Date: 2025-07-30  
@@ -324,7 +326,7 @@ Learned how to clean the power for the USB using the datasheet and connected it 
 - **Datasheet Study:** Researched USB power requirements and conditioning circuits
 - **Power Cleaning:** Implemented filtering and regulation for clean USB power supply
 - **CM5 Integration:** Connected USB power management to CM5 power system
-![alt text](<Screenshot 2025-07-30 175649-1.png>)
+![alt text](img/Screenshot_2025-07-30_175649-1.png)
 ---
 
 ### Date: 2025-07-30  
@@ -338,7 +340,7 @@ Worked on USB 3.0 setup, trying to learn what connects to what. The complexity o
 - **Connection Mapping:** Studied USB 3.0 pin assignments and signal routing
 - **Learning Process:** Worked to understand the various USB 3.0 connections
 - **Signal Analysis:** Identified data lines, power connections, and control signals
-![alt text](image-8.png)
+![alt text](img/image-8.png)
 ---
 
 ### Date: 2025-07-30  
@@ -353,7 +355,7 @@ Connected USB 2.0, but was having some trouble since there isn't actually a pin 
 - **Connection Issues:** Required creative solutions for USB 2.0 implementation
 - **Alternative Routing:** Had to find workaround for missing dedicated pins
 
-![alt text](image-9.png)
+![alt text](img/image-9.png)
 
 ---
 
@@ -368,7 +370,7 @@ Worked on the USB-C cable for power input. It took a while and I had to make som
 - **Power Input Design:** Implemented USB-C connector for main power input
 - **Voltage Cleaning:** Created regulation circuit to clean up incoming power
 - **Time Investment:** Required significant time to get power conditioning right
-![alt text](<Screenshot 2025-07-31 175551.png>)
+![alt text](img/Screenshot_2025-07-31_175551.png)
 ---
 
 ### Date: 2025-07-30  
@@ -383,7 +385,7 @@ Screwed up - the USB-C was meant for 3 amps and not 5 amps, bruh. Whatever, I ch
 - **Connector Replacement:** Swapped out for proper amperage rating
 - **Pin Conflict:** Found USB-C and USB 2.0 share pins - can't work together
 - **Solution:** Removed USB 2.0 data lines, kept as power only, used USB-C for CM5
-![alt text](image-10.png)
+![alt text](img/image-10.png)
 ---
 
 ### Date: 2025-07-30  
@@ -397,7 +399,7 @@ Worked on the power LED to provide visual indication of system power status.
 - **Status Indication:** Implemented LED for power-on visual feedback
 - **Circuit Integration:** Connected LED to power management system
 - **User Interface:** Provides clear power status to user
-![alt text](image-11.png)
+![alt text](img/image-11.png)
 ---
 ### Date: 2025-07-31  
 **Time Spent:** 1 hour  
@@ -416,7 +418,7 @@ Next Steps:
 - Double-check all power connections for reliability
 - Document final pin usage for future refernce
 - Continue with further PCB and wiring optimizations
-![alt text](image-12.png)
+![alt text](img/image-12.png)
 ---
 ### Date: 2025-07-31  
 **Time Spent:** 3.5 hours  
@@ -430,9 +432,11 @@ PCB Learning:
 - Schematic Changes: Had to go back and modify schematic for proper differential signals
 - Design Rework: Significant time spent correcting previous routing mistakes
 - Knowledge Gap: Realized importance of understanding high-speed design principals
-
----
-
+![alt text](img/sadfs.png)
+![alt text](img/asdfa.png)---
+![alt text](img/asdfasdf.png)
+![alt text](img/main.png)
+![alt ext](img/aslkdflkas.png)
 ### Date: 2025-07-31  
 **Time Spent:** Variable  
 **Task:** Case Design — Mechanical Layout
@@ -461,6 +465,6 @@ Power got hit and shut off from 10 to 12:30 in the night and guess what - I didn
 - **Quality Issues:** Current recreation looks poor compared to original
 - **Fatigue Factor:** Working while extremely tired affecting quality
 - **Tomorrow's Plan:** Commit to polishing and improving the design when well-rested
-![alt text](image-13.png)
-![alt text](image-14.png)
+![alt text](img/image-13.png)
+![alt text](img/image-14.png)
 ---
