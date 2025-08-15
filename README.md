@@ -18,7 +18,7 @@ render ![alt text](image-3.png)
 ### PCB Design and Layout
 ![alt text](image.png)
 ![alt text](img/Schematic_gameconsole_2025-08-01.png)
-
+![alt text](img/main.png)
 ## Bill of Materials (BOM)
 
 | Item                | Description                                                        | Qty | Unit Price (USD) | Total Price (USD) | Notes/Link                   |
