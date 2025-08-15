@@ -13,6 +13,7 @@ I wanted to create a unique handheld gaming experience by combining the power of
 ### Full 3D Model
 ![alt text](image-1.png)
 ![alt text](image-2.png)
+render ![alt text](image-3.png)
 
 ### PCB Design and Layout
 ![alt text](image.png)
